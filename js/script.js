@@ -146,6 +146,8 @@ answerForm.addEventListener('submit', function(event){
 
     if(isNaN(n1)||isNaN(n2)||isNaN(n3)||isNaN(n4)||isNaN(n5)){
 
+        error.classList.remove('d-none')
+        error.classList.add('d-flex')
         error.append('INSERISCI I DATI CORRETTI')
         
 
